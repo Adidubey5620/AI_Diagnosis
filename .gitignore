@@ -1,0 +1,38 @@
+# Environment Secrets
+.env
+*.env
+backend/ai/
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Virtual Environments
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+
+# Frontend
+node_modules/
+dist/
+build/
+.expo/
+
+# IDE/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
